@@ -37,3 +37,11 @@ class Sol(object):
 
 sol= Sol()
 print sol.zig(string, numrows)
+
+
+class Sol2(object):
+    def convert(self, string, numrows):
+        if len(string) <= 2 or numrows<2:
+            return string
+
+        
