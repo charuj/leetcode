@@ -16,7 +16,7 @@ class Solution(object):
         maxlen= 0
         tmp= 0
         for s in lstring:
-            if s not in self.seen_dict:
+             if s not in self.seen_dict:
                 self.seen_dict[s]=1
                 tmp +=1
 
